@@ -21,7 +21,7 @@ repository               : "chandanasreemala/chandanasreemala.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/image.jpeg"
+  avatar           : "images/bio-photo.jpg"
   name             : "Chandana sree Mala"
   pronouns         : # example: "she/her"  
   bio              : "Chasing the Impossibile"
