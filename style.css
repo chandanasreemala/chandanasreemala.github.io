@@ -5,10 +5,10 @@ html {
 body {
   margin: 0;
   background: #ffffff;
-  color: #222222;
-  font-family: Georgia, "Times New Roman", serif;
+  color: #242124;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
   font-size: 17px;
-  line-height: 1.68;
+  line-height: 1.72;
 }
 
 .page {
@@ -26,36 +26,43 @@ body {
 }
 
 .site-title {
-  color: #222222;
+  color: #5b2a86;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
+  letter-spacing: -0.02em;
 }
 
 .nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
 .nav a,
 .links a,
 a {
-  color: #365f91;
+  color: #6d3fa0;
   text-decoration: none;
 }
 
 .nav a:hover,
 .links a:hover,
 a:hover {
+  color: #4b176f;
   text-decoration: underline;
+}
+
+.nav span {
+  color: #9b8aa9;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid #d8d8d8;
+  border-top: 1px solid #e3ddeb;
   margin: 0 0 34px;
 }
 
@@ -73,34 +80,31 @@ hr {
 .portrait {
   width: 148px;
   height: 148px;
-  border: 1px solid #d8d8d8;
-  border-radius: 50%;
+  border: 1px solid #d8cde6;
   object-fit: cover;
   object-position: center;
   display: block;
 }
 
-.portrait span {
-  border-bottom: 1px solid #aaaaaa;
-  padding-bottom: 4px;
-}
-
 h1,
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #111111;
-  font-weight: 600;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  color: #5b2a86;
+  font-weight: 700;
   line-height: 1.25;
+  letter-spacing: -0.03em;
 }
 
 h1 {
   margin: 0 0 18px;
-  font-size: 27px;
+  font-size: 30px;
 }
 
 h2 {
   margin: 0 0 14px;
-  font-size: 21px;
+  font-size: 22px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8def3;
 }
 
 p {
@@ -116,13 +120,18 @@ li {
   margin-bottom: 10px;
 }
 
+strong {
+  color: #3b263f;
+  font-weight: 700;
+}
+
 .links {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
 .cv-table {
-  border-top: 1px solid #e2e2e2;
+  border-top: 1px solid #e8def3;
   margin-top: 16px;
 }
 
@@ -131,24 +140,38 @@ li {
   grid-template-columns: 130px 1fr;
   gap: 22px;
   padding: 15px 0;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e8def3;
 }
 
 .year {
-  color: #666666;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #7c6f87;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding-top: 2px;
 }
 
 .content strong {
-  color: #111111;
+  color: #4b176f;
 }
 
 .download {
   margin-top: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 15px;
+}
+
+.download a {
+  display: inline-block;
+  padding: 7px 13px;
+  border: 1px solid #b99ad6;
+  border-radius: 4px;
+  color: #5b2a86;
+  font-weight: 600;
+}
+
+.download a:hover {
+  background: #f5eefb;
+  text-decoration: none;
 }
 
 .publications li {
@@ -157,14 +180,14 @@ li {
 
 .small,
 footer {
-  color: #666666;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #746a7c;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
 code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  background: #f4f4f4;
+  background: #f7f2fb;
   padding: 1px 4px;
   border-radius: 3px;
 }
