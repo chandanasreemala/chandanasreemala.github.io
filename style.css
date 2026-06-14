@@ -1,0 +1,213 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #222222;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.68;
+}
+
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 34px 28px 60px;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.site-title {
+  color: #222222;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.nav a,
+.links a,
+a {
+  color: #365f91;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.links a:hover,
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #d8d8d8;
+  margin: 0 0 34px;
+}
+
+.section {
+  margin: 0 0 42px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 168px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.portrait {
+  width: 148px;
+  height: 148px;
+  border: 1px solid #d8d8d8;
+  background: #f7f7f7;
+  display: grid;
+  place-items: center;
+  color: #444444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.portrait span {
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 4px;
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 27px;
+}
+
+h2 {
+  margin: 0 0 14px;
+  font-size: 21px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+ul {
+  margin-top: 8px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.cv-table {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 16px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 22px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.year {
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.content strong {
+  color: #111111;
+}
+
+.download {
+  margin-top: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.publications li {
+  margin-bottom: 14px;
+}
+
+.small,
+footer {
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  background: #f4f4f4;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+footer {
+  margin-top: 28px;
+}
+
+@media (max-width: 680px) {
+  body {
+    font-size: 16px;
+  }
+
+  .page {
+    padding: 24px 18px 46px;
+  }
+
+  .site-header {
+    display: block;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .intro,
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .intro {
+    gap: 20px;
+  }
+
+  .portrait {
+    width: 128px;
+    height: 128px;
+  }
+
+  .row {
+    gap: 4px;
+  }
+}
